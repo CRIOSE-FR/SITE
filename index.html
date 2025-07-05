@@ -1,3 +1,117 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRIOSE - Coordination, Recherche et Innovation</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f7f9fb; color: #333; }
+        header { background-color: #0066cc; color: white; padding: 20px; text-align: center; position: relative; overflow: hidden; }
+        header img { width: 80px; position: absolute; top: 10px; left: 10px; border-radius: 50%; }
+        nav { background-color: #e6e6e6; padding: 10px; text-align: center; }
+        nav a { margin: 0 15px; color: #333; text-decoration: none; font-weight: bold; }
+        section { padding: 20px; max-width: 1000px; margin: auto; opacity: 0; transform: translateY(20px); transition: all 0.6s ease-out; }
+        section.visible { opacity: 1; transform: translateY(0); }
+        footer { background-color: #0066cc; color: white; text-align: center; padding: 10px; margin-top: 20px; }
+    </style>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const sections = document.querySelectorAll("section");
+            const observer = new IntersectionObserver(entries => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add("visible");
+                    }
+                });
+            }, { threshold: 0.1 });
+
+            sections.forEach(section => {
+                observer.observe(section);
+            });
+        });
+    </script>
+</head>
+<body>
+
+    <header>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Medical_cross.svg" alt="Logo CRIOSE">
+        <h1>CRIOSE</h1>
+        <h2>Coordination, Recherche et Innovation des Organisations de Santé et des Exerçants</h2>
+        <p>CRIOSE est une structure qui accompagne les professionnels et les organisations de soins primaires dans le développement de la recherche, la structuration de l'innovation en santé et l'évaluation des actions territoriales. Son ambition est de favoriser une amélioration continue de la qualité des soins et de mieux connaître les besoins des territoires.</p>
+    </header>
+
+    <nav>
+        <a href="#contexte">Contexte</a>
+        <a href="#objectifs">Objectifs</a>
+        <a href="#actions">Actions</a>
+        <a href="#equipe">Équipe</a>
+        <a href="#partenaires">Partenaires</a>
+        <a href="#actualites">Actualités</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="contexte">
+        <h3>Contexte et constats</h3>
+        <ul>
+            <li>1 % seulement des coordinateurs ont une mission liée à la recherche.</li>
+            <li>Plus de 80 % considèrent que la recherche permettrait une montée en compétences et une professionnalisation des actions menées.</li>
+            <li>30 % des CPTS ont déjà été sollicités pour des travaux de recherche.</li>
+            <li>Près de 90 % des coordinateurs ignorent les dispositifs de financement existants.</li>
+            <li>43 % envisagent de développer des projets de recherche collective dans les deux prochaines années.</li>
+        </ul>
+    </section>
+
+    <section id="objectifs">
+        <h3>Nos Objectifs</h3>
+        <ul>
+            <li>Accompagner le développement de la recherche en soins primaires.</li>
+            <li>Soutenir l'innovation en santé et l'évaluation de son impact.</li>
+            <li>Évaluer les actions des CPTS avec des outils adaptés et comparables.</li>
+            <li>Former et valoriser les professionnels de santé.</li>
+        </ul>
+    </section>
+
+    <section id="actions">
+        <h3>Actions envisagées</h3>
+        <ul>
+            <li>Co-construction d'outils d'évaluation pratiques.</li>
+            <li>Projets pilotes d'évaluation des actions CPTS.</li>
+            <li>Formations à la recherche et à l'évaluation.</li>
+            <li>Réseau de partenaires scientifiques et institutionnels.</li>
+            <li>Études d'impact sur le système de santé.</li>
+        </ul>
+    </section>
+
+    <section id="equipe">
+        <h3>Équipe</h3>
+        <p>Notre équipe est composée de professionnels de santé, chercheurs et experts de l'organisation des soins primaires, impliqués dans le développement territorial et l'amélioration continue des pratiques. [Détaillez ici les membres clés, leurs compétences et leurs rôles]</p>
+    </section>
+
+    <section id="partenaires">
+        <h3>Partenaires</h3>
+        <p>CRIOSE travaille en collaboration avec des CPTS, des universités, des agences de santé, des structures d'appui à la recherche et des acteurs institutionnels pour déployer des actions innovantes et pertinentes au service des territoires. [Ajoutez ici logos et descriptions de partenaires]</p>
+    </section>
+
+    <section id="actualites">
+        <h3>Actualités</h3>
+        <p>Retrouvez nos dernières actualités, publications, événements et projets en cours. [Ajoutez ici des articles ou liens vers des ressources]</p>
+    </section>
+
+    <section id="contact">
+        <h3>Contact</h3>
+        <p>[Votre nom]<br>
+           Fondateur du projet CRIOSE<br>
+           [Votre profession / Master]<br>
+           [Votre email]<br>
+           [Votre téléphone]</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 CRIOSE - Tous droits réservés</p>
+    </footer>
+
+</body>
+</html>
 
 <!DOCTYPE html>
 <html lang="fr">
