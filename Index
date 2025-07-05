@@ -1,0 +1,21 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRIOSE - Accueil</title>
+</head>
+<body>
+    <h1>Bienvenue sur CRIOSE</h1>
+    <p>Coordination, Recherche et Innovation des Organisations de Santé et des Exerçants.</p>
+    <nav>
+        <a href="objectifs.html">Objectifs</a> |
+        <a href="actions.html">Actions</a> |
+        <a href="equipe.html">Équipe</a> |
+        <a href="partenaires.html">Partenaires</a> |
+        <a href="actualites.html">Actualités</a> |
+        <a href="contact.html">Contact</a>
+    </nav>
+</body>
+</html>
