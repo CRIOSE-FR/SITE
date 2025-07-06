@@ -6,146 +6,87 @@
     <title>CRIOSE - Coordination, Recherche et Innovation</title>
     <style>
         body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f7f9fb; color: #333; }
-        header { background-color: #0066cc; color: white; padding: 20px; text-align: center; position: relative; overflow: hidden; }
-        header img { width: 100px; position: absolute; top: 10px; left: 10px; border-radius: 8px; }
+        header, footer { background-color: #0066cc; color: white; padding: 20px; text-align: center; }
+        header img { width: 100px; margin-bottom: 15px; }
         nav { background-color: #e6e6e6; padding: 10px; text-align: center; }
         nav a { margin: 0 15px; color: #333; text-decoration: none; font-weight: bold; }
-        section { padding: 20px; max-width: 1000px; margin: auto; opacity: 0; transform: translateY(20px); transition: all 0.6s ease-out; }
-        section.visible { opacity: 1; transform: translateY(0); }
-        footer { background-color: #0066cc; color: white; text-align: center; padding: 10px; margin-top: 20px; }
+        section { padding: 40px 20px; max-width: 1000px; margin: auto; }
+        h3 { font-family: 'Montserrat', sans-serif; text-align: center; margin-bottom: 30px; }
+        ul { list-style: none; padding: 0; }
+        li { background: #f0f4f8; padding: 20px; border-radius: 8px; margin-bottom: 20px; }
     </style>
-    <script>
-        document.addEventListener("DOMContentLoaded", function() {
-            const sections = document.querySelectorAll("section");
-            const observer = new IntersectionObserver(entries => {
-                entries.forEach(entry => {
-                    if (entry.isIntersecting) {
-                        entry.target.classList.add("visible");
-                    }
-                });
-            }, { threshold: 0.1 });
-
-            sections.forEach(section => {
-                observer.observe(section);
-            });
-        });
-    </script>
 </head>
 <body>
 
-   <header style="background-color: #0066cc; text-align: center; padding: 40px 20px; color: white;">
-    <div style="display: flex; flex-direction: column; align-items: center;">
-        <img src="images/CRIOSE.png" alt="Logo CRIOSE" style="width: 120px; margin-bottom: 20px;">
-        <h1 style="font-family: 'Montserrat', sans-serif; font-size: 3.5em; font-weight: 700; text-transform: uppercase; letter-spacing: 3px; margin: 0;">
-            CRIOSE
-        </h1>
-        <h2 style="font-family: 'Montserrat', sans-serif; font-weight: 400; font-size: 1.3em; color: white; margin: 10px 0 20px 0;">
-            Coordination, Recherche et Innovation des Organisations de Santé
-        </h2>
-        <p style="font-size: 1.1em; color: white; max-width: 600px;">
-            Accélérer la recherche et l’innovation, transformer les organisations de santé.
-        </p>
-    </div>
+<header>
+    <img src="images/CRIOSE.png" alt="Logo CRIOSE">
+    <h1>CRIOSE</h1>
+    <h2>Coordination, Recherche et Innovation des Organisations de Santé</h2>
+    <p>Accélérer la recherche et l’innovation, transformer les organisations de santé.</p>
 </header>
 
-<section id="actions-envisagees" style="padding: 40px 20px;">
-    <h3 style="font-family: 'Montserrat', sans-serif; text-align: center; margin-bottom: 30px;">Actions envisagées</h3>
-    <ul style="list-style: none; padding: 0; max-width: 900px; margin: auto;">
-        <li style="background: #f0f4f8; padding: 20px; border-radius: 8px; margin-bottom: 20px;"><strong>Accompagnement à la création et au montage de projets :</strong> Vous avez une idée de recherche ou d'innovation ? Nous vous accompagnons de l'idée à la réalisation : structuration méthodologique, rédaction du protocole, élaboration du budget et recherche de financements. Cet accompagnement est proposé sous forme de prestation facturée, adaptée à vos besoins.</li>
-        <li style="background: #f0f4f8; padding: 20px; border-radius: 8px; margin-bottom: 20px;"><strong>Développement d'actions territoriales :</strong> Nous vous accompagnons dans la conception d’actions innovantes adaptées à votre territoire et vous apportons un appui stratégique pour leur mise en œuvre et leur évaluation.</li>
-        <li style="background: #f0f4f8; padding: 20px; border-radius: 8px; margin-bottom: 20px;"><strong>Évaluation de projet :</strong> Vous pensez que votre action fonctionne ? Nous vous aidons à démontrer son impact et à prouver son efficacité.</li>
-        <li style="background: #f0f4f8; padding: 20px; border-radius: 8px;"><strong>Déploiement de formations :</strong> Accompagner la montée en compétences des équipes pour renforcer leurs capacités en recherche, évaluation et innovation organisationnelle.</li>
+<nav>
+    <a href="#contexte">Contexte</a>
+    <a href="#objectifs">Objectifs</a>
+    <a href="#actions">Actions</a>
+    <a href="#equipe">Équipe</a>
+    <a href="#partenaires">Partenaires</a>
+    <a href="#actualites">Actualités</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="contexte">
+    <h3>Contexte et constats</h3>
+    <p>Les CPTS jouent un rôle clé dans la structuration des soins primaires. Une enquête menée auprès de 120 CPTS a révélé des besoins d'accompagnement méthodologique et de financement pour structurer la recherche et l'évaluation des actions territoriales.</p>
+</section>
+
+<section id="objectifs">
+    <h3>Nos Objectifs</h3>
+    <ul>
+        <li>Accompagner le développement de la recherche en soins primaires.</li>
+        <li>Soutenir l'innovation en santé et l'évaluation de son impact.</li>
+        <li>Évaluer les actions des CPTS avec des outils adaptés.</li>
+        <li>Former et valoriser les professionnels de santé.</li>
     </ul>
 </section>
 
-<footer style="background-color: #0066cc; color: white; text-align: center; padding: 20px;">
+<section id="actions">
+    <h3>Actions envisagées</h3>
+    <ul>
+        <li><strong>Accompagnement à la création et au montage de projets :</strong> Structuration méthodologique, rédaction du protocole, élaboration du budget et recherche de financements.</li>
+        <li><strong>Développement d'actions territoriales :</strong> Conception d’actions innovantes adaptées à votre territoire, appui stratégique pour leur mise en œuvre et évaluation.</li>
+        <li><strong>Évaluation de projet :</strong> Aide à la mesure de l’impact et à la démonstration de l’efficacité des actions menées.</li>
+        <li><strong>Déploiement de formations :</strong> Montée en compétences des équipes en recherche, évaluation et innovation organisationnelle.</li>
+    </ul>
+</section>
+
+<section id="equipe">
+    <h3>Équipe</h3>
+    <p>Professionnels de santé, chercheurs et experts en organisation des soins primaires unissent leurs compétences pour structurer les actions territoriales et accompagner les équipes de terrain.</p>
+</section>
+
+<section id="partenaires">
+    <h3>Partenaires</h3>
+    <p>CRIOSE collabore avec les CPTS, universités, ARS, CPAM et structures d’appui à la recherche pour favoriser l’innovation territoriale.</p>
+</section>
+
+<section id="actualites">
+    <h3>Actualités</h3>
+    <p>Découvrez nos dernières actions, projets et événements. [À venir]</p>
+</section>
+
+<section id="contact">
+    <h3>Contact</h3>
+    <p>Arnaud Adrien-René<br>
+       Fondateur du projet CRIOSE<br>
+       Professionnel de santé / Master 2 Santé Publique<br>
+       adrienrene.arnaud@gmail.com</p>
+</section>
+
+<footer>
     <p style="font-weight: bold; margin-bottom: 10px;">Accélérer la recherche et l’innovation, transformer les organisations de santé</p>
     <p>&copy; 2025 CRIOSE - Tous droits réservés</p>
 </footer>
-
-
-    <nav>
-        <a href="#contexte">Contexte</a>
-        <a href="#objectifs">Objectifs</a>
-        <a href="#actions">Actions</a>
-        <a href="#equipe">Équipe</a>
-        <a href="#partenaires">Partenaires</a>
-        <a href="#actualites">Actualités</a>
-        <a href="#contact">Contact</a>
-    </nav>
-
-   <section id="contexte">
-        <h3>Contexte et constats</h3>
-        <p>Dans le cadre de la stratégie nationale « 100 % CPTS », les Communautés Professionnelles Territoriales de Santé sont appelées à devenir des leviers majeurs de la coordination des soins de proximité et de l’amélioration de la santé des populations. Cette ambition nationale est soutenue par les financeurs publics (CPAM, ARS), qui attendent des CPTS qu’elles démontrent leur impact organisationnel, clinique et territorial.<p>
-
-        <p>Afin d’identifier les leviers et freins à cette dynamique, une enquête nationale a été menée auprès de plus de 120 CPTS, dans le cadre d’un Master 2 Santé Publique. Ce travail a permis de mettre en lumière les besoins méthodologiques des équipes de coordination et le manque d’outils concrets pour structurer, évaluer et valoriser les actions engagées.<p>
-
-        <p>Ces constats de terrain font écho aux attentes institutionnelles et soulignent l’importance de soutenir les soins primaires par des dispositifs d’appui à la recherche, à l’évaluation et à l’innovation territoriale.</p>
-
-        <p>La recherche et l'innovation apparaissent ainsi comme des leviers majeurs pour professionnaliser les équipes, améliorer la coordination des soins et objectiver l'impact des actions menées. Cependant, plusieurs freins limitent aujourd'hui leur développement :</p>
-
-        <ul>
-            <li><strong>Faible intégration de la recherche : </strong>seulement 1 % des coordinateurs ont une mission liée à la recherche.</li>
-            <li><strong>Reconnaissance du besoin : </strong>plus de 80 % considèrent que la recherche permettrait une montée en compétences et une professionnalisation des actions menées.</li>
-            <li><strong>Sollicitations extérieures : </strong>30 % des CPTS ont déjà été approchés pour des projets de recherche mais peinent à répondre par manque de moyens et de méthodologie.</li>
-            <li><strong>Manque d'accès aux financements : </strong>près de 90 % des coordinateurs ignorent les dispositifs existants pour financer des travaux de recherche ou d'évaluation.</li>
-            <li><strong>Volonté de progresser : </strong>43 % des CPTS interrogés envisagent de développer des projets de recherche collective dans les deux prochaines années.</li>
-        </ul>
-
-        <p>Ces constats soulignent un besoin fort d'accompagnement méthodologique, organisationnel et financier pour permettre aux CPTS d'intégrer pleinement la recherche, l'innovation et l'évaluation dans leurs missions de soins primaires.</p>
-    </section>
-
-
-    <section id="objectifs">
-        <h3>Nos Objectifs</h3>
-        <ul>
-            <li>Accompagner le développement de la recherche en soins primaires.</li>
-            <li>Soutenir l'innovation en santé et l'évaluation de son impact.</li>
-            <li>Évaluer les actions des CPTS avec des outils adaptés et comparables.</li>
-            <li>Former et valoriser les professionnels de santé.</li>
-        </ul>
-    </section>
-
-    <section id="actions">
-       <section id="actions-envisagees" style="padding: 40px 20px;">
-    <h3 style="font-family: 'Montserrat', sans-serif; text-align: center; margin-bottom: 30px;">Actions envisagées</h3>
-    <ul style="list-style: none; padding: 0; max-width: 900px; margin: auto;">
-        <li style="background: #f0f4f8; padding: 20px; border-radius: 8px; margin-bottom: 20px;"><strong>Accompagnement à la création et au montage de projets :</strong> Vous avez une idée de recherche ou d'innovation ? Nous vous accompagnons de l'idée à la réalisation : structuration méthodologique, rédaction du protocole, élaboration du budget et recherche de financements. Cet accompagnement est proposé sous forme de prestation facturée, adaptée à vos besoins.</li>
-        <li style="background: #f0f4f8; padding: 20px; border-radius: 8px; margin-bottom: 20px;"><strong>Développement d'actions territoriales :</strong> Nous vous accompagnons dans la conception d’actions innovantes adaptées à votre territoire et vous apportons un appui stratégique pour leur mise en œuvre et leur évaluation.</li>
-        <li style="background: #f0f4f8; padding: 20px; border-radius: 8px; margin-bottom: 20px;"><strong>Évaluation de projet :</strong> Vous pensez que votre action fonctionne ? Nous vous aidons à démontrer son impact et à prouver son efficacité.</li>
-        <li style="background: #f0f4f8; padding: 20px; border-radius: 8px;"><strong>Déploiement de formations :</strong> Accompagner la montée en compétences des équipes pour renforcer leurs capacités en recherche, évaluation et innovation organisationnelle.</li>
-    </ul>
-</section>
-
-    <section id="equipe">
-        <h3>Équipe</h3>
-        <p>Notre équipe est composée de professionnels de santé, chercheurs et experts de l'organisation des soins primaires, impliqués dans le développement territorial et l'amélioration continue des pratiques. [A venir]</p>
-    </section>
-
-    <section id="partenaires">
-        <h3>Partenaires</h3>
-        <p>CRIOSE travaille en collaboration avec des CPTS, des universités, des agences de santé, des structures d'appui à la recherche et des acteurs institutionnels pour déployer des actions innovantes et pertinentes au service des territoires. [A venir]</p>
-    </section>
-
-    <section id="actualites">
-        <h3>Actualités</h3>
-        <p>Retrouvez nos dernières actualités, publications, événements et projets en cours. [A venir]</p>
-    </section>
-
-    <section id="contact">
-        <h3>Contact</h3>
-        <p>Arnaud Adrien-René<br>
-           Fondateur du projet CRIOSE<br>
-           Professionnel de santé / Master 2 Santé Publique<br>
-           adrienrene.arnaud@gmail.com<br>
-          
-    </section>
-
-    <footer>
-       
-        <p style="font-weight: bold; margin-bottom: 10px;">Accélérer la recherche et l’innovation, transformer les organisations de santé</p>
-        <p>&copy; 2025 CRIOSE - Tous droits réservés</p>
-    </footer>
 
 </body>
 </html>
