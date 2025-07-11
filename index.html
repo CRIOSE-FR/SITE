@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+dois je mofier cette page?-<!DOCTYPE html>
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
@@ -12,14 +12,23 @@
             padding: 0;
             background-color: #f7f9fb;
             color: #333;
+            line-height: 1.6;
         }
 
         header {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
             background-color: #0066cc;
             color: white;
             padding: 30px 20px;
-            text-align: center;
             box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+        }
+
+        header img {
+            width: 100px;
+            margin-right: 20px;
+            border-radius: 8px;
         }
 
         nav {
@@ -53,26 +62,27 @@
         }
 
         h3 {
-            color: #0066cc;
+            font-family: 'Montserrat', sans-serif;
             text-align: center;
             margin-bottom: 20px;
+            color: #0066cc;
+        }
+
+        h4 {
+            color: #0066cc;
+            margin-top: 20px;
         }
 
         ul {
-            list-style: disc inside;
-            margin-bottom: 20px;
+            list-style: none;
+            padding: 0;
         }
 
-        .cta-button {
-            display: inline-block;
-            padding: 12px 25px;
-            background-color: #0066cc;
-            color: white;
-            text-decoration: none;
+        li {
+            background: #f0f4f8;
+            padding: 15px 20px;
             border-radius: 8px;
-            font-weight: bold;
-            margin-top: 20px;
-            text-align: center;
+            margin-bottom: 15px;
         }
 
         footer {
@@ -87,48 +97,214 @@
 <body>
 
 <header>
-    <h1>CRIOSE</h1>
-    <h2>Structurer les soins primaires par la recherche et l’innovation</h2>
-    <p>Accompagnement 100 % à distance, adapté aux territoires.</p>
+    <img src="CRIOSE.png" alt="Logo CRIOSE">
+    <div>
+        <h1>CRIOSE</h1>
+        <h2>Coordination, Recherche et Innovation des Organisations de Santé</h2>
+        <p>Accélérer la recherche et l’innovation, transformer les organisations de santé.</p>
+    </div>
 </header>
-
+<section style="background-color: #e6f0ff; padding: 30px; text-align: center; border-radius: 0 0 12px 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+    <h2 style="color: #0066cc; margin-bottom: 10px;">Structurer les soins primaires par la recherche et l’innovation</h2>
+    <p style="font-size: 18px;">CRIOSE accompagne les CPTS et acteurs territoriaux dans le montage, le financement et l’évaluation de leurs projets.</p>
+    <p style="font-size: 16px; margin-top: 10px;"><strong>🚀 Démarrage des accompagnements pour la rentrée 2025 – Contactez-nous dès maintenant !</strong></p>
+    <a href="#contact" style="display: inline-block; margin-top: 20px; padding: 12px 25px; background-color: #0066cc; color: white; text-decoration: none; font-weight: bold; border-radius: 8px;">
+        Discutons ensemble
+    </a>
+</section>
 <nav>
     <a href="#contexte">Contexte</a>
+    <a href="#positionnement">Positionnement</a>
     <a href="#objectifs">Objectifs</a>
-    <a href="#offres">Nos Offres</a>
+    <a href="#actions">Actions</a>
+    <a href="#prestations">Prestations</a>
+    <a href="#suivi">Suivi</a>
+    <a href="#equipe">Équipe</a>
+    <a href="#partenaires">Partenaires</a>
+    <a href="#actualites">Actualités</a>
+    <a href="offres.html">Nos Offres</a>
+    <a href="pourquoi-recherche.html">Pourquoi la recherche ?</a>
     <a href="#contact">Contact</a>
 </nav>
 
 <section id="contexte">
-    <h3>Pourquoi structurer la recherche en soins primaires ?</h3>
-    <p>Les CPTS font face à des défis croissants pour structurer leurs actions et démontrer leur impact. CRIOSE propose un appui simple et adapté pour faciliter ces démarches.</p>
-    <a href="pourquoi-recherche.html" class="cta-button">En savoir plus</a>
+    <h3>Contexte</h3>
+
+    <p>La structuration des soins primaires autour des <strong>CPTS</strong> s’accompagne d’une demande croissante d’évaluation de l’impact des actions menées, notamment dans le cadre des ACI. Le programme <strong>"100 % CPTS"</strong> promeut également le développement de la recherche en soins primaires et l’innovation territoriale.</p>
+
+    <p>Pourtant, comme le montre une enquête menée dans le cadre de mon mémoire de Master 2 Santé Publique auprès de 120 CPTS, les coordinateurs expriment des difficultés récurrentes à développer des projets de recherche ou à conduire des évaluations structurées : manque de temps, de compétences méthodologiques, d’appui scientifique ou d’accès à des outils adaptés:</p>
+
+    <ul>
+        <li><strong>Faible intégration de la recherche :</strong> seulement 1 % des coordinateurs ont une mission liée à la recherche.</li>
+        <li><strong>Reconnaissance du besoin :</strong> plus de 80 % considèrent que la recherche permettrait une montée en compétences et une professionnalisation des actions menées.</li>
+        <li><strong>Sollicitations extérieures :</strong> 30 % des CPTS ont déjà été approchés pour des projets de recherche, mais peinent à répondre par manque de moyens et de méthodologie.</li>
+        <li><strong>Manque d'accès aux financements :</strong> près de 90 % des coordinateurs ignorent les dispositifs existants pour financer des travaux de recherche ou d’évaluation.</li>
+        <li><strong>Volonté de progresser :</strong> 43 % des CPTS interrogés envisagent de développer des projets de recherche collective dans les deux prochaines années.</li>
+    </ul>
+
+    <p>Face à ce constat, <strong>CRIOSE</strong> (Coordination, Recherche et Innovation des Organisations de Santé) a été conçu pour proposer un appui méthodologique souple et adapté aux structures territoriales.</p>
+
+    <h4>Axes stratégiques de CRIOSE</h4>
+    <ul>
+        <li>Faciliter l’émergence de projets issus du terrain (CPTS, MSP, DAC…).</li>
+        <li>Jouer un rôle d’interface entre les structures territoriales et les institutions (universités, CHU, GIRCI, ARS…).</li>
+        <li>Apporter un soutien méthodologique, de la formulation de la question de recherche jusqu’au suivi de l’étude.</li>
+        <li>Aider à la rédaction des projets, à la recherche de financements adaptés (FIR, FECOP, PHRC, fondations...) et à la structuration des partenariats.</li>
+        <li>Structurer des démarches d’évaluation et d’innovation pour renforcer les dynamiques territoriales (CPTS, MSP, DAC…) et valoriser les actions menées dans le cadre des ACI ou des programmes FIR/FECOP.</li>
+        <li>Justifier l’utilité des CPTS par la production de données probantes, d’indicateurs de suivi et d’analyses structurées, au service des professionnels, des financeurs et des usagers.</li>
+    </ul>
 </section>
+
 
 <section id="objectifs">
     <h3>Nos Objectifs</h3>
     <ul>
-        <li>Renforcer la recherche en soins primaires.</li>
-        <li>Développer l’innovation territoriale en santé.</li>
-        <li>Structurer des démarches d’évaluation utiles aux territoires.</li>
+        <li>Accompagner le développement de la recherche en soins primaires.</li>
+        <li>Soutenir l'innovation en santé et l'évaluation de son impact.</li>
+        <li>Structurer des démarches territoriales adaptées et durables.</li>
+    </ul>
+</section>
+    
+<section id="positionnement">
+    <h3>Note de positionnement : un vide à combler</h3>
+
+    <h4>📍 Constat</h4>
+    <ul>
+        <li>👉 Aujourd’hui, les soins primaires sont au cœur des politiques de santé publique (<strong>CPTS, ACI, DAC, FIR, 100 % CPTS</strong>).</li>
+        <li>👉 Mais très peu de structures de soins primaires produisent des données probantes pour démontrer leur impact.</li>
+        <li>👉 Pourtant, les <strong>ARS, CPAM</strong> et pouvoirs publics demandent des bilans ACI structurés, des indicateurs et des rapports d’impact.</li>
+    </ul>
+
+    <h4>🚫 Un vide d’accompagnement méthodologique</h4>
+
+    <table style="width:100%; border-collapse: collapse; margin-bottom: 20px;">
+        <tr style="background-color:#e6e6e6;">
+            <th style="padding: 10px; border: 1px solid #ccc;">Acteurs</th>
+            <th style="padding: 10px; border: 1px solid #ccc;">Limite actuelle</th>
+        </tr>
+        <tr>
+            <td style="padding: 10px; border: 1px solid #ccc;">CPTS / MSP / DAC</td>
+            <td style="padding: 10px; border: 1px solid #ccc;">Peu de temps, peu de moyens pour structurer des démarches de recherche</td>
+        </tr>
+        <tr>
+            <td style="padding: 10px; border: 1px solid #ccc;">CHU / Universités</td>
+            <td style="padding: 10px; border: 1px solid #ccc;">Trop éloignés des réalités de terrain des soins primaires</td>
+        </tr>
+        <tr>
+            <td style="padding: 10px; border: 1px solid #ccc;">Consultants privés</td>
+            <td style="padding: 10px; border: 1px solid #ccc;">Peu formés à la recherche en santé publique</td>
+        </tr>
+        <tr>
+            <td style="padding: 10px; border: 1px solid #ccc;">GIRCI / ARS</td>
+            <td style="padding: 10px; border: 1px solid #ccc;">Financiers ou institutionnels, pas opérationnels</td>
+        </tr>
+    </table>
+
+    <h4>✔️ CRIOSE propose une réponse concrète</h4>
+    <ul>
+        <li>🔬 <strong>Recherche appliquée :</strong> accompagner les CPTS pour structurer des questions de recherche simples et utiles.</li>
+        <li>⚙️ <strong>Innovation territoriale :</strong> créer des outils d’évaluation et de suivi adaptés aux besoins réels.</li>
+        <li>📊 <strong>Évaluation pragmatique :</strong> produire des bilans exploitables pour les professionnels et les financeurs.</li>
+    </ul>
+
+    <p style="font-weight: bold; text-align: center; margin-top: 20px;">
+        🎯 Notre ambition : rendre la recherche accessible aux soins primaires.
+    </p>
+</section>
+
+<section id="actions">
+    <h3>Actions envisagées</h3>
+    <ul>
+        <li><strong>Création et montage de projets :</strong> rédaction de protocoles, recherche de financements, élaboration budgétaire.</li>
+        <li><strong>Déploiement d'actions territoriales :</strong> par exemple, l’accompagnement du programme ICOPE (Integrated Care for Older People).</li>
+        <li><strong>Évaluation de projet :</strong> aide à la mesure d’impact et à la valorisation des résultats.</li>
+        <li><strong>Déploiement de formations :</strong> pour renforcer les compétences méthodologiques des équipes.</li>
     </ul>
 </section>
 
-<section id="offres">
-    <h3>Nos Offres</h3>
-    <p>Découvrez nos prestations adaptées à vos besoins territoriaux&nbsp;:</p>
-    <a href="offres.html" class="cta-button">Voir nos offres</a>
+<section id="prestations">
+    <h3>Prestations : Recherche, Innovation, Coordination</h3>
+    <ul>
+        <li>Vous avez une idée ? <strong>Nous vous aidons à la réaliser.</strong></li>
+        <li>Animation de groupes de travail.</li>
+        <li>Aide à la rédaction de projets : lettre d’intention, protocole.</li>
+        <li>Recherche de partenariats avec des institutions académiques et sanitaires.</li>
+        <li>Veille et recherche d’appels à projets adaptés.</li>
+        <li>Accompagnement au financement (FIR, appels à projets, fondations).</li>
+        <li>Aide au déploiement territorial des projets de recherche.</li>
+    </ul>
+</section>
+
+<section id="suivi">
+    <h3>Suivi et pilotage des actions</h3>
+    <ul>
+        <li>Suivi d'actions de santé publique (exemple : ICOPE).</li>
+        <li>Gestion de projets territoriaux.</li>
+        <li>Organisation de dépistages collectifs.</li>
+        <li>Communication et mobilisation locale.</li>
+        <li>Gestion des appels entrants.</li>
+        <li>Analyse de territoire et diagnostic partagé.</li>
+        <li>Bilan et reporting auprès des ACI, ARS et financeurs.</li>
+    </ul>
+</section>
+    
+<section id="equipe">
+    <h3>Qui suis-je ?</h3>
+
+    <p>Je suis <strong>Arnaud Adrien-René</strong>, professionnel de santé, diplômé d’un <strong>Master 2 Santé Publique</strong> (Université Toulouse III) et d’un <strong>Diplôme Universitaire de Recherche Clinique et Managériale</strong>.</p>
+
+    <p>Mon parcours combine :</p>
+    <ul>
+        <li>Expérience clinique (infirmier aux urgences et en libéral),</li>
+        <li>Expertise en recherche appliquée et évaluation de projets de santé publique,</li>
+        <li>Accompagnement des CPTS et acteurs des soins primaires dans le développement d’actions territoriales (prévention, parcours innovants, coordination).</li>
+    </ul>
+
+    <p>J’ai mené une enquête nationale auprès de 120 CPTS sur la place de la recherche en soins primaires, qui a permis de mieux comprendre les besoins méthodologiques des coordinateurs.</p>
+
+    <p>Avec <strong>CRIOSE</strong>, je propose un accompagnement méthodologique 100 % à distance, souple et adapté à vos réalités de terrain.</p>
+</section>
+
+<section id="partenaires">
+    <h3>Partenaires</h3>
+    <p>CRIOSE souhaite collaborer avec les CPTS, universités, ARS, CPAM et structures d’appui à la recherche pour favoriser l’innovation territoriale.</p>
+</section>
+
+<section id="actualites">
+    <h3>Actualités</h3>
+    <h4>Lancement de CRIOSE – 21 août</h4>
+    <p><strong>Préparez dès maintenant vos projets pour la rentrée. Interventions 100 % télétravail.</strong></p>
 </section>
 
 <section id="contact">
-    <h3>Contactez CRIOSE</h3>
-    <p>Préparez vos actions pour la rentrée. Échangeons sur vos besoins, sans engagement.</p>
-    <p>Email : <strong>adrienrene.arnaud@gmail.com</strong></p>
-    <a href="mailto:adrienrene.arnaud@gmail.com" class="cta-button">Écrire un email</a>
+    <h3>Contactez-nous</h3>
+
+    <p style="text-align: center;">
+        Vous souhaitez préparer vos actions pour la rentrée ? Contactez-nous pour un premier échange sans engagement.<br>
+        <strong>Devis personnalisé sur demande.</strong>
+    </p>
+
+    <div style="display: flex; justify-content: center; margin: 30px 0;">
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScaajJ-xuwwvtxdTayhus0QxnVn1Q0Lgufmd5LgIPnhvBFKjQ/viewform?embedded=true" width="640" height="700" frameborder="0" marginheight="0" marginwidth="0">Chargement…</iframe>
+    </div>
+
+    <p style="text-align: center;">Ou contactez-nous directement par email : <br><strong>adrienrene.arnaud@gmail.com</strong></p>
+    <!-- Intégration des icônes via CDN -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+<p style="text-align: center; margin-top: 20px;">Suivez-nous :</p>
+
+<div style="text-align: center; font-size: 28px; margin-top: 10px;">
+    <a href="https://www.instagram.com/tonprofil" target="_blank" style="color: #0066cc; margin: 0 15px;">
+        <i class="fab fa-instagram"></i>
+    </a>
+</div>
+
 </section>
 
 <footer>
-    <p>© 2025 CRIOSE - Tous droits réservés</p>
+    <p style="font-weight: bold; margin-bottom: 10px;">Accélérer la recherche et l’innovation, transformer les organisations de santé</p>
+    <p>&copy; 2025 CRIOSE - Tous droits réservés</p>
 </footer>
 
 </body>
