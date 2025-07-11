@@ -1,35 +1,34 @@
-<section id="pourquoi-recherche">
-    <h3>Pourquoi faire de la recherche en soins primaires&nbsp;?</h3>
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pourquoi faire de la recherche en soins primaires ? - CRIOSE</title>
+    <link rel="stylesheet" href="style.css"> <!-- si tu utilises un fichier CSS commun -->
+</head>
+<body>
 
-    <p>La recherche en soins primaires vise à <strong>améliorer la qualité des soins, comprendre les pratiques de terrain et produire des données utiles</strong> aux professionnels, aux usagers et aux financeurs.</p>
+<header>
+    <h1>Pourquoi faire de la recherche en soins primaires ?</h1>
+</header>
 
-    <h4>🎯 Les enjeux concrets</h4>
-    <ul>
-        <li><strong>Adapter les actions aux besoins locaux</strong> : chaque territoire est différent, la recherche permet d'identifier les leviers pertinents.</li>
-        <li><strong>Mesurer l’impact réel des actions</strong> : au-delà des intuitions, des données chiffrées permettent d’évaluer les résultats des projets.</li>
-        <li><strong>Professionnaliser les soins primaires</strong> : structurer les actions, développer des outils partagés et valoriser les pratiques.</li>
-        <li><strong>Justifier les financements (ACI, FIR, ARS, CPAM)</strong> : produire des bilans attendus par les financeurs publics.</li>
-    </ul>
+<nav>
+    <a href="index.html">Accueil</a>
+    <a href="offres.html">Nos Offres</a>
+    <a href="pourquoi-recherche.html">Pourquoi la recherche ?</a>
+    <a href="index.html#contact">Contact</a>
+</nav>
 
-    <h4>🔬 Exemples concrets de recherche en CPTS</h4>
-    <ul>
-        <li>Combien de patients fragiles repérés grâce au programme ICOPE&nbsp;?</li>
-        <li>Quels sont les freins rencontrés par les professionnels dans le parcours de prévention cardiovasculaire&nbsp;?</li>
-        <li>Quels publics touchent vraiment les actions de dépistage du diabète&nbsp;?</li>
-    </ul>
-
-    <h4>🚀 Ce que ça apporte à votre territoire</h4>
-    <ul>
-        <li>Des données adaptées à votre population locale,</li>
-        <li>Une reconnaissance accrue auprès des institutions (ARS, CPAM, collectivités),</li>
-        <li>Des actions mieux ciblées et plus efficaces.</li>
-    </ul>
-
-    <p style="font-weight: bold; margin-top: 30px;">CRIOSE vous aide à structurer des démarches simples, pragmatiques et utiles au quotidien.</p>
-
-    <p style="text-align: center; margin-top: 20px;">
-        <a href="index.html#contact" style="background-color: #0066cc; color: white; padding: 12px 25px; text-decoration: none; border-radius: 8px; font-weight: bold;">
-            📩 Contactez CRIOSE pour démarrer un projet
-        </a>
-    </p>
+<section>
+    <h2>Comprendre, structurer, démontrer</h2>
+    <p>La recherche en soins primaires permet de structurer les pratiques territoriales, d’évaluer l’impact des actions et de produire des données probantes utiles aux professionnels, aux financeurs et aux usagers.</p>
+    
+    <!-- ajoute ici le contenu que je t’ai proposé plus haut -->
 </section>
+
+<footer>
+    <p>&copy; 2025 CRIOSE - Tous droits réservés</p>
+</footer>
+
+</body>
+</html>
